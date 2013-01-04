@@ -3,12 +3,11 @@
 </head>
 
 <body>
+	<p> this is some text </p>
   {{> terminal}}
 </body>
 
 <template name="terminal">
-	{{#if show}}
 		<div style="width:500px;">{{ window }}</div>
 		<input type="button" class="run" value="Run" />
-	{{/if}}
 </template>
